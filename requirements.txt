@@ -1,0 +1,18 @@
+# Core dependencies for Fake Review Detector
+fastapi==0.111.0
+uvicorn==0.29.0
+transformers==4.40.0
+torch>=2.0.0
+pydantic>=2.0.0
+python-multipart
+
+# Data processing and ML
+numpy>=1.21.0
+pandas>=3.0.0
+scikit-learn>=1.0.0
+requests>=2.25.0
+
+# Optional: For development
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
