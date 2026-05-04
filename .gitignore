@@ -156,17 +156,11 @@ temp/
 tmp/
 cache/
 
-# Model files - exclude large model files
-models/*.safetensors
-models/*.bin
-models/*.pt
-models/*.pth
+# Model files - exclude entire models directory
+models/
 
-# Data files - exclude all large data files
-data/processed/*.csv
-data/raw/*.csv
-*.json
-*.jsonl
+# Data files - exclude entire data directory
+data/
 
 # Large files by size
 *.zip
